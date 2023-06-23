@@ -1,0 +1,47 @@
+
+body{
+    font-family: Vazir;
+    text-align: right;
+    direction: rtl;
+    font-size: 1.05rem;
+    
+   
+}
+
+header h4{
+    font-weight: 700;
+}
+
+.jumbotron{
+    padding: 3rem 2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.jumbotron .container{
+    max-width: 40rem;
+}
+
+.jumbotron p:last-child{
+    margin-bottom: 0;
+}
+
+@media(min-width:768px){
+    .jumbotron{
+        padding: 6rem 2rem;
+    }
+}
+
+.mycards h5{
+    font-weight: 700;
+}
+
+.box-shadow{
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.2);
+    transition: all .2s ease-in-out;
+}
+
+.mycards .box-shadow:hover {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.4);
+
+}
